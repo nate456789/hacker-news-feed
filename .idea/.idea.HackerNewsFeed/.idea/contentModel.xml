@@ -197,7 +197,6 @@
       </e>
       <e p="Controllers" t="Include">
         <e p="NewsFeedController.cs" t="Include" />
-        <e p="WeatherForecastController.cs" t="Include" />
       </e>
       <e p="HackerNewsFeed.csproj" t="IncludeRecursive" />
       <e p="HackerNewsFeed.sln" t="IncludeFlat" />
@@ -228,10 +227,12 @@
         <e p="HackerNewsService.cs" t="Include" />
       </e>
       <e p="Startup.cs" t="Include" />
+      <e p="Tests" t="Include">
+        <e p="NewsFeedTest.cs" t="Include" />
+      </e>
       <e p="Utility" t="Include">
         <e p="ExtensionMethods.cs" t="Include" />
       </e>
-      <e p="WeatherForecast.cs" t="Include" />
       <e p="wwwroot" t="Include">
         <e p="favicon.ico" t="Include" />
       </e>

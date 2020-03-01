@@ -12,6 +12,6 @@ namespace HackerNewsFeed.Models
         public int CommentCount { get; set; }
         public string Url { get; set; }
         public string BaseUrl { get; set; }
-        public DateTime Published { get; set; }
+        public string Published { get; set; }
     }
 }
