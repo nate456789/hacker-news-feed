@@ -1,0 +1,17 @@
+using System;
+using System.Collections.Generic;
+
+namespace HackerNewsFeed.Models
+{
+
+    public class StoryItemModel
+    {
+        public int Id { get; set; }
+        public string Author { get; set; }
+        public string Title { get; set; }
+        public int CommentCount { get; set; }
+        public string Url { get; set; }
+        public string BaseUrl { get; set; }
+        public DateTime Published { get; set; }
+    }
+}
