@@ -1,5 +1,6 @@
 using System;
 using System.Collections.Generic;
+using System.Linq;
 using System.Net.Http;
 using System.Threading.Tasks;
 using HackerNewsFeed.Models;
@@ -28,7 +29,7 @@ namespace HackerNewsFeed.Services
                 var articleList = JsonConvert.DeserializeObject<List<int>>(apiFeedResponse);
 
                 var response = new List<StoryItemModel>();
-                
+
                 foreach (var articleId in articleList)
                 {
                     if (limit == 0)
@@ -42,16 +43,20 @@ namespace HackerNewsFeed.Services
                             $"https://hacker-news.firebaseio.com/v0/item/{articleId}.json?print=pretty");
                     string apiStoryResponse = await storyItemResponse.Content.ReadAsStringAsync();
                     var articleDetails = JsonConvert.DeserializeObject<StoryResponseModel>(apiStoryResponse);
-                    response.Add(new StoryItemModel()
+                    if (articleDetails.type == FeedType.Story.ToString())
                     {
-                        Author = articleDetails.by,
-                        Published = DateTimeOffset.FromUnixTimeSeconds(articleDetails.time).ToLocalTime().FindElapseTime(),
-                        CommentCount = articleDetails.kids?.Count ?? 0,
-                        Title = articleDetails.title,
-                        Url = articleDetails.url,
-                        BaseUrl = FindDomain(articleDetails.url),
-                        Id = articleDetails.id
-                    });
+                        response.Add(new StoryItemModel()
+                        {
+                            Author = articleDetails.by,
+                            Published = DateTimeOffset.FromUnixTimeSeconds(articleDetails.time).ToLocalTime()
+                                .FindElapseTime(),
+                            CommentCount = articleDetails.kids?.Count ?? 0,
+                            Title = articleDetails.title,
+                            Url = articleDetails.url,
+                            BaseUrl = FindDomain(articleDetails.url),
+                            Id = articleDetails.id
+                        });
+                    }
                 }
 
                 return response;
