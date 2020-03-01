@@ -173,6 +173,7 @@
           </e>
           <e p="assets" t="Include">
             <e p=".gitkeep" t="Include" />
+            <e p="hacker-news-48.png" t="Include" />
           </e>
           <e p="environments" t="Include">
             <e p="environment.prod.ts" t="Include" />

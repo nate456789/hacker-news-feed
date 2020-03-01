@@ -3,6 +3,7 @@
     class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3"
   >
     <div class="container">
+      <img alt="hackernews icon" src="../../assets/hacker-news-48.png">
       <a class="navbar-brand" [routerLink]="['/']">Hacker News</a>
       <button
         class="navbar-toggler"
@@ -29,7 +30,7 @@
           </li>
           <li class="nav-item" [routerLinkActive]="['link-active']">
             <a class="nav-link text-dark" [routerLink]="['/fetch-data']"
-              >Fetch data</a
+              >Fetch feed</a
             >
           </li>
         </ul>
