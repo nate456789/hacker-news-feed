@@ -1,24 +1,26 @@
-<h1 id="tableLabel">Weather forecast</h1>
+<h3 id="tableLabel">Latest feed</h3>
 
-<p>This component demonstrates fetching data from the server.</p>
+<p>Your source for what is happening around the globe</p>
 
-<p *ngIf="!forecasts"><em>Loading...</em></p>
+<p *ngIf="!feedStories"><em>Loading...</em></p>
 
-<table class='table table-striped' aria-labelledby="tableLabel" *ngIf="forecasts">
+<table class='table table-striped' aria-labelledby="tableLabel" *ngIf="feedStories">
   <thead>
     <tr>
-      <th>Date</th>
-      <th>Temp. (C)</th>
-      <th>Temp. (F)</th>
-      <th>Summary</th>
+      <th>Title</th>
+      <th>From</th>
+      <th>Published</th>
+      <th>Author</th>
+      <th>Comments</th>
     </tr>
   </thead>
   <tbody>
-    <tr *ngFor="let forecast of forecasts">
-      <td>{{ forecast.date }}</td>
-      <td>{{ forecast.temperatureC }}</td>
-      <td>{{ forecast.temperatureF }}</td>
-      <td>{{ forecast.summary }}</td>
+    <tr *ngFor="let story of feedStories">
+      <td><a href="{{ story.url }}" target="_blank">{{ story.title }}</a></td>
+      <td>{{ story.baseUrl }}</td>
+      <td>{{ story.published }}</td>
+      <td>{{ story.author }}</td>
+      <td>{{ story.commentCount }}</td>
     </tr>
   </tbody>
 </table>

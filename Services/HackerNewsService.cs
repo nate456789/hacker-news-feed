@@ -68,7 +68,7 @@ namespace HackerNewsFeed.Services
             return null;
         }
 
-        internal string FindDomain(string url)
+        private string FindDomain(string url)
         {
             if (string.IsNullOrEmpty(url))
             {
