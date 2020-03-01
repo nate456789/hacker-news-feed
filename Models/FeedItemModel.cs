@@ -17,13 +17,4 @@ namespace HackerNewsFeed.Models
         public string Type { get; set; }
         public string Url { get; set; }
     }
-
-    public enum FeedType
-    {
-        Job,
-        Story,
-        Comment,
-        Poll,
-        PollOpt
-    }
 }

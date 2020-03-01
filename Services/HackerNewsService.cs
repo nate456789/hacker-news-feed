@@ -43,7 +43,7 @@ namespace HackerNewsFeed.Services
                             $"https://hacker-news.firebaseio.com/v0/item/{articleId}.json?print=pretty");
                     string apiStoryResponse = await storyItemResponse.Content.ReadAsStringAsync();
                     var articleDetails = JsonConvert.DeserializeObject<StoryResponseModel>(apiStoryResponse);
-                    if (articleDetails.type == FeedType.Story.ToString())
+                    if (articleDetails.type == "story")
                     {
                         response.Add(new StoryItemModel()
                         {
