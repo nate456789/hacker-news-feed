@@ -23,6 +23,22 @@
         <Content Remove="$(SpaRoot)**" />
         <None Remove="$(SpaRoot)**" />
         <None Include="$(SpaRoot)**" Exclude="$(SpaRoot)node_modules\**" />
+        <None Remove="HackerNewsFeedApi.Tests\**" />
+        <Content Remove="HackerNewsFeedApi.Tests\**" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <Compile Remove="HackerNewsFeedApi.Tests\**" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <EmbeddedResource Remove="HackerNewsFeedApi.Tests\**" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <_ContentIncludedByDefault Remove="HackerNewsFeedApi.Tests\obj\HackerNewsFeedApi.Tests.csproj.nuget.dgspec.json" />
+      <_ContentIncludedByDefault Remove="HackerNewsFeedApi.Tests\obj\project.assets.json" />
+      <_ContentIncludedByDefault Remove="HackerNewsFeedApi.Tests\obj\project.packagespec.json" />
     </ItemGroup>
 
     <Target Name="DebugEnsureNodeEnv" BeforeTargets="Build" Condition=" '$(Configuration)' == 'Debug' And !Exists('$(SpaRoot)node_modules') ">

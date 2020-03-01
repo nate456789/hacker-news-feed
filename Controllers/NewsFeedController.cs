@@ -23,9 +23,9 @@ namespace HackerNewsFeed.Controllers
         }
 
         [HttpGet]
-        public async Task<List<StoryItemModel>> Get()
+        public async Task<List<StoryItemModel>> Get(int limit=50)
         {
-            var response = await _newsFeedService.GetLatestNews();
+            var response = await _newsFeedService.GetLatestNews(limit);
             return response;
         }
 

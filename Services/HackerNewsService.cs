@@ -11,13 +11,13 @@ namespace HackerNewsFeed.Services
 {
     public interface INewsFeed
     {
-        public Task<List<StoryItemModel>> GetLatestNews();
+        public Task<List<StoryItemModel>> GetLatestNews(int limit);
         public List<FeedItemModel> SearchFeed(string searchTerm);
     }
 
     public class NewsFeed : INewsFeed
     {
-        public async Task<List<StoryItemModel>> GetLatestNews()
+        public async Task<List<StoryItemModel>> GetLatestNews(int limit)
         {
             try
             {
@@ -28,7 +28,7 @@ namespace HackerNewsFeed.Services
                 var articleList = JsonConvert.DeserializeObject<List<int>>(apiFeedResponse);
 
                 var response = new List<StoryItemModel>();
-                var limit = 50;
+                
                 foreach (var articleId in articleList)
                 {
                     if (limit == 0)
@@ -44,8 +44,8 @@ namespace HackerNewsFeed.Services
                     var articleDetails = JsonConvert.DeserializeObject<StoryResponseModel>(apiStoryResponse);
                     response.Add(new StoryItemModel()
                     {
-                        Author = articleDetails.@by,
-                        Published = DateTime.Today.EpochToDateTime(articleDetails.time).FindElapseTime(),
+                        Author = articleDetails.by,
+                        Published = DateTimeOffset.FromUnixTimeSeconds(articleDetails.time).ToLocalTime().FindElapseTime(),
                         CommentCount = articleDetails.kids?.Count ?? 0,
                         Title = articleDetails.title,
                         Url = articleDetails.url,

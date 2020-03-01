@@ -4,13 +4,7 @@ namespace HackerNewsFeed.Utility
 {
     public static class ExtensionMethods
     {
-        public static DateTime EpochToDateTime(this DateTime dt, int value)
-        {
-            var dto = DateTimeOffset.FromUnixTimeSeconds(value);
-            return dto.LocalDateTime;
-        }
-
-        public static string FindElapseTime(this DateTime pub)
+        public static string FindElapseTime(this DateTimeOffset pub)
         {
             var diff = DateTime.Now - pub;
             if (diff.TotalMinutes < 60)

@@ -2,6 +2,8 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HackerNewsFeed", "HackerNewsFeed.csproj", "{1A361DC5-5790-4322-ABEC-983E79635407}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HackerNewsFeedApi.Tests", "HackerNewsFeedApi.Tests\HackerNewsFeedApi.Tests.csproj", "{DDE4D002-B012-4245-9CE8-8D5A703E2F7E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -12,5 +14,9 @@ Global
 		{1A361DC5-5790-4322-ABEC-983E79635407}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1A361DC5-5790-4322-ABEC-983E79635407}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1A361DC5-5790-4322-ABEC-983E79635407}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DDE4D002-B012-4245-9CE8-8D5A703E2F7E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DDE4D002-B012-4245-9CE8-8D5A703E2F7E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DDE4D002-B012-4245-9CE8-8D5A703E2F7E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DDE4D002-B012-4245-9CE8-8D5A703E2F7E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

@@ -1,6 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ContentModelStore">
+    <e p="$USER_HOME$/.nuget/packages/microsoft.net.test.sdk/16.5.0/build/netcoreapp2.1" t="Include">
+      <e p="Microsoft.NET.Test.Sdk.Program.cs" t="Include" />
+    </e>
+    <e p="$USER_HOME$/.nuget/packages/xunit.runner.visualstudio/2.4.0/build/netcoreapp1.0/xunit.runner.reporters.netcoreapp10.dll" t="Include" />
+    <e p="$USER_HOME$/.nuget/packages/xunit.runner.visualstudio/2.4.0/build/netcoreapp1.0/xunit.runner.utility.netcoreapp10.dll" t="Include" />
+    <e p="$USER_HOME$/.nuget/packages/xunit.runner.visualstudio/2.4.0/build/netcoreapp1.0/xunit.runner.visualstudio.dotnetcore.testadapter.dll" t="Include" />
     <e p="$USER_HOME$/Library/Caches/Rider2019.3/extResources" t="IncludeRecursive" />
     <e p="$USER_HOME$/Library/Caches/Rider2019.3/resharper-host/local/Transient/ReSharperHost/v193/SolutionCaches/_HackerNewsFeed.-1026100211.00" t="ExcludeRecursive" />
     <e p="$APPLICATION_CONFIG_DIR$/extensions" t="IncludeRecursive" />
@@ -200,6 +206,171 @@
       </e>
       <e p="HackerNewsFeed.csproj" t="IncludeRecursive" />
       <e p="HackerNewsFeed.sln" t="IncludeFlat" />
+      <e p="HackerNewsFeedApi.Tests" t="IncludeRecursive">
+        <e p="bin" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netcoreapp3.1" t="Include">
+              <e p="appsettings.Development.json" t="Include" />
+              <e p="appsettings.json" t="Include" />
+              <e p="Autofac.dll" t="Include" />
+              <e p="Autofac.Extensions.DependencyInjection.dll" t="Include" />
+              <e p="cs" t="Include">
+                <e p="Microsoft.TestPlatform.CommunicationUtilities.resources.dll" t="Include" />
+                <e p="Microsoft.TestPlatform.CoreUtilities.resources.dll" t="Include" />
+                <e p="Microsoft.TestPlatform.CrossPlatEngine.resources.dll" t="Include" />
+                <e p="Microsoft.VisualStudio.TestPlatform.Common.resources.dll" t="Include" />
+                <e p="Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll" t="Include" />
+              </e>
+              <e p="de" t="Include">
+                <e p="Microsoft.TestPlatform.CommunicationUtilities.resources.dll" t="Include" />
+                <e p="Microsoft.TestPlatform.CoreUtilities.resources.dll" t="Include" />
+                <e p="Microsoft.TestPlatform.CrossPlatEngine.resources.dll" t="Include" />
+                <e p="Microsoft.VisualStudio.TestPlatform.Common.resources.dll" t="Include" />
+                <e p="Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll" t="Include" />
+              </e>
+              <e p="es" t="Include">
+                <e p="Microsoft.TestPlatform.CommunicationUtilities.resources.dll" t="Include" />
+                <e p="Microsoft.TestPlatform.CoreUtilities.resources.dll" t="Include" />
+                <e p="Microsoft.TestPlatform.CrossPlatEngine.resources.dll" t="Include" />
+                <e p="Microsoft.VisualStudio.TestPlatform.Common.resources.dll" t="Include" />
+                <e p="Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll" t="Include" />
+              </e>
+              <e p="fr" t="Include">
+                <e p="Microsoft.TestPlatform.CommunicationUtilities.resources.dll" t="Include" />
+                <e p="Microsoft.TestPlatform.CoreUtilities.resources.dll" t="Include" />
+                <e p="Microsoft.TestPlatform.CrossPlatEngine.resources.dll" t="Include" />
+                <e p="Microsoft.VisualStudio.TestPlatform.Common.resources.dll" t="Include" />
+                <e p="Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll" t="Include" />
+              </e>
+              <e p="HackerNewsFeed" t="Include" />
+              <e p="HackerNewsFeed.dll" t="Include" />
+              <e p="HackerNewsFeed.pdb" t="Include" />
+              <e p="HackerNewsFeed.Views.dll" t="Include" />
+              <e p="HackerNewsFeed.Views.pdb" t="Include" />
+              <e p="HackerNewsFeedApi.Tests.deps.json" t="Include" />
+              <e p="HackerNewsFeedApi.Tests.dll" t="Include" />
+              <e p="HackerNewsFeedApi.Tests.pdb" t="Include" />
+              <e p="HackerNewsFeedApi.Tests.runtimeconfig.dev.json" t="Include" />
+              <e p="HackerNewsFeedApi.Tests.runtimeconfig.json" t="Include" />
+              <e p="it" t="Include">
+                <e p="Microsoft.TestPlatform.CommunicationUtilities.resources.dll" t="Include" />
+                <e p="Microsoft.TestPlatform.CoreUtilities.resources.dll" t="Include" />
+                <e p="Microsoft.TestPlatform.CrossPlatEngine.resources.dll" t="Include" />
+                <e p="Microsoft.VisualStudio.TestPlatform.Common.resources.dll" t="Include" />
+                <e p="Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll" t="Include" />
+              </e>
+              <e p="ja" t="Include">
+                <e p="Microsoft.TestPlatform.CommunicationUtilities.resources.dll" t="Include" />
+                <e p="Microsoft.TestPlatform.CoreUtilities.resources.dll" t="Include" />
+                <e p="Microsoft.TestPlatform.CrossPlatEngine.resources.dll" t="Include" />
+                <e p="Microsoft.VisualStudio.TestPlatform.Common.resources.dll" t="Include" />
+                <e p="Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll" t="Include" />
+              </e>
+              <e p="ko" t="Include">
+                <e p="Microsoft.TestPlatform.CommunicationUtilities.resources.dll" t="Include" />
+                <e p="Microsoft.TestPlatform.CoreUtilities.resources.dll" t="Include" />
+                <e p="Microsoft.TestPlatform.CrossPlatEngine.resources.dll" t="Include" />
+                <e p="Microsoft.VisualStudio.TestPlatform.Common.resources.dll" t="Include" />
+                <e p="Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll" t="Include" />
+              </e>
+              <e p="Microsoft.AspNetCore.NodeServices.dll" t="Include" />
+              <e p="Microsoft.AspNetCore.SpaServices.dll" t="Include" />
+              <e p="Microsoft.AspNetCore.SpaServices.Extensions.dll" t="Include" />
+              <e p="Microsoft.Extensions.Configuration.Abstractions.dll" t="Include" />
+              <e p="Microsoft.Extensions.Configuration.Binder.dll" t="Include" />
+              <e p="Microsoft.Extensions.Configuration.dll" t="Include" />
+              <e p="Microsoft.Extensions.DependencyInjection.Abstractions.dll" t="Include" />
+              <e p="Microsoft.Extensions.DependencyInjection.dll" t="Include" />
+              <e p="Microsoft.Extensions.FileProviders.Abstractions.dll" t="Include" />
+              <e p="Microsoft.Extensions.FileProviders.Physical.dll" t="Include" />
+              <e p="Microsoft.Extensions.FileSystemGlobbing.dll" t="Include" />
+              <e p="Microsoft.Extensions.Logging.Abstractions.dll" t="Include" />
+              <e p="Microsoft.Extensions.Logging.Configuration.dll" t="Include" />
+              <e p="Microsoft.Extensions.Logging.Console.dll" t="Include" />
+              <e p="Microsoft.Extensions.Logging.dll" t="Include" />
+              <e p="Microsoft.Extensions.Options.ConfigurationExtensions.dll" t="Include" />
+              <e p="Microsoft.Extensions.Options.dll" t="Include" />
+              <e p="Microsoft.Extensions.Primitives.dll" t="Include" />
+              <e p="Microsoft.TestPlatform.CommunicationUtilities.dll" t="Include" />
+              <e p="Microsoft.TestPlatform.CoreUtilities.dll" t="Include" />
+              <e p="Microsoft.TestPlatform.CrossPlatEngine.dll" t="Include" />
+              <e p="Microsoft.TestPlatform.PlatformAbstractions.dll" t="Include" />
+              <e p="Microsoft.TestPlatform.Utilities.dll" t="Include" />
+              <e p="Microsoft.VisualStudio.CodeCoverage.Shim.dll" t="Include" />
+              <e p="Microsoft.VisualStudio.TestPlatform.Common.dll" t="Include" />
+              <e p="Microsoft.VisualStudio.TestPlatform.ObjectModel.dll" t="Include" />
+              <e p="Newtonsoft.Json.dll" t="Include" />
+              <e p="NuGet.Frameworks.dll" t="Include" />
+              <e p="pl" t="Include">
+                <e p="Microsoft.TestPlatform.CommunicationUtilities.resources.dll" t="Include" />
+                <e p="Microsoft.TestPlatform.CoreUtilities.resources.dll" t="Include" />
+                <e p="Microsoft.TestPlatform.CrossPlatEngine.resources.dll" t="Include" />
+                <e p="Microsoft.VisualStudio.TestPlatform.Common.resources.dll" t="Include" />
+                <e p="Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll" t="Include" />
+              </e>
+              <e p="Properties" t="Include">
+                <e p="launchSettings.json" t="Include" />
+              </e>
+              <e p="pt-BR" t="Include">
+                <e p="Microsoft.TestPlatform.CommunicationUtilities.resources.dll" t="Include" />
+                <e p="Microsoft.TestPlatform.CoreUtilities.resources.dll" t="Include" />
+                <e p="Microsoft.TestPlatform.CrossPlatEngine.resources.dll" t="Include" />
+                <e p="Microsoft.VisualStudio.TestPlatform.Common.resources.dll" t="Include" />
+                <e p="Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll" t="Include" />
+              </e>
+              <e p="ru" t="Include">
+                <e p="Microsoft.TestPlatform.CommunicationUtilities.resources.dll" t="Include" />
+                <e p="Microsoft.TestPlatform.CoreUtilities.resources.dll" t="Include" />
+                <e p="Microsoft.TestPlatform.CrossPlatEngine.resources.dll" t="Include" />
+                <e p="Microsoft.VisualStudio.TestPlatform.Common.resources.dll" t="Include" />
+                <e p="Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll" t="Include" />
+              </e>
+              <e p="testhost.dll" t="Include" />
+              <e p="tr" t="Include">
+                <e p="Microsoft.TestPlatform.CommunicationUtilities.resources.dll" t="Include" />
+                <e p="Microsoft.TestPlatform.CoreUtilities.resources.dll" t="Include" />
+                <e p="Microsoft.TestPlatform.CrossPlatEngine.resources.dll" t="Include" />
+                <e p="Microsoft.VisualStudio.TestPlatform.Common.resources.dll" t="Include" />
+                <e p="Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll" t="Include" />
+              </e>
+              <e p="xunit.abstractions.dll" t="Include" />
+              <e p="xunit.assert.dll" t="Include" />
+              <e p="xunit.core.dll" t="Include" />
+              <e p="xunit.execution.dotnet.dll" t="Include" />
+              <e p="xunit.runner.reporters.netcoreapp10.dll" t="Include" />
+              <e p="xunit.runner.utility.netcoreapp10.dll" t="Include" />
+              <e p="xunit.runner.visualstudio.dotnetcore.testadapter.dll" t="Include" />
+              <e p="zh-Hans" t="Include">
+                <e p="Microsoft.TestPlatform.CommunicationUtilities.resources.dll" t="Include" />
+                <e p="Microsoft.TestPlatform.CoreUtilities.resources.dll" t="Include" />
+                <e p="Microsoft.TestPlatform.CrossPlatEngine.resources.dll" t="Include" />
+                <e p="Microsoft.VisualStudio.TestPlatform.Common.resources.dll" t="Include" />
+                <e p="Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll" t="Include" />
+              </e>
+              <e p="zh-Hant" t="Include">
+                <e p="Microsoft.TestPlatform.CommunicationUtilities.resources.dll" t="Include" />
+                <e p="Microsoft.TestPlatform.CoreUtilities.resources.dll" t="Include" />
+                <e p="Microsoft.TestPlatform.CrossPlatEngine.resources.dll" t="Include" />
+                <e p="Microsoft.VisualStudio.TestPlatform.Common.resources.dll" t="Include" />
+                <e p="Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll" t="Include" />
+              </e>
+            </e>
+          </e>
+        </e>
+        <e p="HackerNewsFeedApi.Tests.csproj" t="IncludeRecursive" />
+        <e p="NewsFeedTest.cs" t="Include" />
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netcoreapp3.1" t="Include">
+              <e p="HackerNewsFeedApi.Tests.AssemblyInfo.cs" t="Include" />
+              <e p="HackerNewsFeedApi.Tests.csproj.CopyComplete" t="Include" />
+              <e p="HackerNewsFeedApi.Tests.csproj.FileListAbsolute.txt" t="Include" />
+              <e p="HackerNewsFeedApi.Tests.dll" t="Include" />
+              <e p="HackerNewsFeedApi.Tests.pdb" t="Include" />
+            </e>
+          </e>
+        </e>
+      </e>
       <e p="Models" t="Include">
         <e p="FeedItemModel.cs" t="Include" />
         <e p="StoryItemModel.cs" t="Include" />
@@ -213,7 +384,159 @@
           </e>
         </e>
       </e>
-      <e p="packages" t="ExcludeRecursive" />
+      <e p="packages" t="ExcludeRecursive">
+        <e p="xunit.2.1.0" t="Include">
+          <e p=".signature.p7s" t="Include" />
+          <e p="xunit.2.1.0.nupkg" t="Include" />
+        </e>
+        <e p="xunit.abstractions.2.0.0" t="Include">
+          <e p=".signature.p7s" t="Include" />
+          <e p="lib" t="Include">
+            <e p="net35" t="Include">
+              <e p="xunit.abstractions.dll" t="Include" />
+              <e p="xunit.abstractions.xml" t="Include" />
+            </e>
+            <e p="portable-net45+win+wpa81+wp80+monotouch+monoandroid+Xamarin.iOS" t="Include">
+              <e p="xunit.abstractions.dll" t="Include" />
+              <e p="xunit.abstractions.xml" t="Include" />
+            </e>
+          </e>
+          <e p="xunit.abstractions.2.0.0.nupkg" t="Include" />
+        </e>
+        <e p="xunit.assert.2.1.0" t="Include">
+          <e p=".signature.p7s" t="Include" />
+          <e p="lib" t="Include">
+            <e p="dotnet" t="Include">
+              <e p="xunit.assert.dll" t="Include" />
+              <e p="xunit.assert.pdb" t="Include" />
+              <e p="xunit.assert.xml" t="Include" />
+            </e>
+            <e p="portable-net45+win8+wp8+wpa81" t="Include">
+              <e p="xunit.assert.dll" t="Include" />
+              <e p="xunit.assert.pdb" t="Include" />
+              <e p="xunit.assert.xml" t="Include" />
+            </e>
+          </e>
+          <e p="xunit.assert.2.1.0.nupkg" t="Include" />
+        </e>
+        <e p="xunit.core.2.1.0" t="Include">
+          <e p=".signature.p7s" t="Include" />
+          <e p="build" t="Include">
+            <e p="_desktop" t="Include">
+              <e p="xunit.execution.desktop.dll" t="Include" />
+            </e>
+            <e p="dnx451" t="Include">
+              <e p="_._" t="Include" />
+            </e>
+            <e p="monoandroid" t="Include">
+              <e p="_._" t="Include" />
+            </e>
+            <e p="monotouch" t="Include">
+              <e p="_._" t="Include" />
+            </e>
+            <e p="net45" t="Include">
+              <e p="_._" t="Include" />
+            </e>
+            <e p="portable-net45+win8+wp8+wpa81" t="Include">
+              <e p="xunit.core.props" t="Include" />
+            </e>
+            <e p="win8" t="Include">
+              <e p="_._" t="Include" />
+            </e>
+            <e p="win81" t="Include">
+              <e p="xunit.core.props" t="Include" />
+            </e>
+            <e p="wp8" t="Include">
+              <e p="_._" t="Include" />
+            </e>
+            <e p="wpa81" t="Include">
+              <e p="xunit.core.props" t="Include" />
+            </e>
+            <e p="xamarinios" t="Include">
+              <e p="_._" t="Include" />
+            </e>
+          </e>
+          <e p="xunit.core.2.1.0.nupkg" t="Include" />
+        </e>
+        <e p="xunit.extensibility.core.2.1.0" t="Include">
+          <e p=".signature.p7s" t="Include" />
+          <e p="lib" t="Include">
+            <e p="dotnet" t="Include">
+              <e p="xunit.core.dll" t="Include" />
+              <e p="xunit.core.dll.tdnet" t="Include" />
+              <e p="xunit.core.pdb" t="Include" />
+              <e p="xunit.core.xml" t="Include" />
+              <e p="xunit.runner.tdnet.dll" t="Include" />
+              <e p="xunit.runner.utility.desktop.dll" t="Include" />
+            </e>
+            <e p="portable-net45+win8+wp8+wpa81" t="Include">
+              <e p="xunit.core.dll" t="Include" />
+              <e p="xunit.core.dll.tdnet" t="Include" />
+              <e p="xunit.core.pdb" t="Include" />
+              <e p="xunit.core.xml" t="Include" />
+              <e p="xunit.runner.tdnet.dll" t="Include" />
+              <e p="xunit.runner.utility.desktop.dll" t="Include" />
+            </e>
+          </e>
+          <e p="xunit.extensibility.core.2.1.0.nupkg" t="Include" />
+        </e>
+        <e p="xunit.extensibility.execution.2.1.0" t="Include">
+          <e p=".signature.p7s" t="Include" />
+          <e p="lib" t="Include">
+            <e p="dnx451" t="Include">
+              <e p="xunit.execution.dotnet.dll" t="Include" />
+              <e p="xunit.execution.dotnet.pdb" t="Include" />
+              <e p="xunit.execution.dotnet.xml" t="Include" />
+            </e>
+            <e p="dotnet" t="Include">
+              <e p="xunit.execution.dotnet.dll" t="Include" />
+              <e p="xunit.execution.dotnet.pdb" t="Include" />
+              <e p="xunit.execution.dotnet.xml" t="Include" />
+            </e>
+            <e p="monoandroid" t="Include">
+              <e p="xunit.execution.dotnet.dll" t="Include" />
+              <e p="xunit.execution.dotnet.pdb" t="Include" />
+              <e p="xunit.execution.dotnet.xml" t="Include" />
+            </e>
+            <e p="monotouch" t="Include">
+              <e p="xunit.execution.dotnet.dll" t="Include" />
+              <e p="xunit.execution.dotnet.pdb" t="Include" />
+              <e p="xunit.execution.dotnet.xml" t="Include" />
+            </e>
+            <e p="net45" t="Include">
+              <e p="xunit.execution.desktop.dll" t="Include" />
+              <e p="xunit.execution.desktop.pdb" t="Include" />
+              <e p="xunit.execution.desktop.xml" t="Include" />
+            </e>
+            <e p="portable-net45+win8+wp8+wpa81" t="Include">
+              <e p="xunit.execution.dotnet.dll" t="Include" />
+              <e p="xunit.execution.dotnet.pdb" t="Include" />
+              <e p="xunit.execution.dotnet.xml" t="Include" />
+            </e>
+            <e p="win8" t="Include">
+              <e p="xunit.execution.dotnet.dll" t="Include" />
+              <e p="xunit.execution.dotnet.pdb" t="Include" />
+              <e p="xunit.execution.dotnet.xml" t="Include" />
+            </e>
+            <e p="wp8" t="Include">
+              <e p="xunit.execution.dotnet.dll" t="Include" />
+              <e p="xunit.execution.dotnet.pdb" t="Include" />
+              <e p="xunit.execution.dotnet.xml" t="Include" />
+            </e>
+            <e p="wpa81" t="Include">
+              <e p="xunit.execution.dotnet.dll" t="Include" />
+              <e p="xunit.execution.dotnet.pdb" t="Include" />
+              <e p="xunit.execution.dotnet.xml" t="Include" />
+            </e>
+            <e p="xamarinios" t="Include">
+              <e p="xunit.execution.dotnet.dll" t="Include" />
+              <e p="xunit.execution.dotnet.pdb" t="Include" />
+              <e p="xunit.execution.dotnet.xml" t="Include" />
+            </e>
+          </e>
+          <e p="xunit.extensibility.execution.2.1.0.nupkg" t="Include" />
+        </e>
+      </e>
       <e p="Pages" t="Include">
         <e p="_ViewImports.cshtml" t="Include" />
         <e p="Error.cshtml" t="Include" />
@@ -227,9 +550,6 @@
         <e p="HackerNewsService.cs" t="Include" />
       </e>
       <e p="Startup.cs" t="Include" />
-      <e p="Tests" t="Include">
-        <e p="NewsFeedTest.cs" t="Include" />
-      </e>
       <e p="Utility" t="Include">
         <e p="ExtensionMethods.cs" t="Include" />
       </e>
